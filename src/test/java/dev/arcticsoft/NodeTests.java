@@ -1,11 +1,11 @@
-package com.arcticsoft;
+package dev.arcticsoft;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
 public class NodeTests {
-    
+
     @Test
     void createNode() {
         var node = new Node(1);
